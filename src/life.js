@@ -42,11 +42,23 @@ class Life {
 
     next() {
         const {age, event, talent} = this.#property.ageNext();
+        const { TYPES } = this.#property;
 
         const talentContent = this.doTalent(talent);
         const eventContent = this.doEvent(this.random(event));
         this.#property.record();
 
+        // TODO: 不到100不死
+        // if (age < 85 && this.#property.get(TYPES.LIF) < 1) {
+        //     this.#property.set(TYPES.LIF, 1);
+        // }
+        // if (age === 86) {
+        //     this.#property.set(TYPES.LIF, 1);
+        // }
+        // 100岁 续命
+        // if (age === 100) {
+        //     this.#property.change(TYPES.LIF, 10);
+        // }
         const isEnd = this.#property.isEnd();
 
         const content = [talentContent, eventContent].flat();

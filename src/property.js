@@ -158,7 +158,14 @@ class Property {
     }
 
     isEnd() {
-        return this.get(this.TYPES.LIF) < 1;
+      // 判断现在几岁
+      //   const age = this.get(this.TYPES.AGE);
+      //   if (age > 100) {
+      //     return true;
+      //   }
+      //   return false;
+      //   // 结束
+      return this.get(this.TYPES.LIF) < 1;
     }
 
     ageNext() {
