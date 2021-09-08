@@ -2,7 +2,7 @@ import { max, sum } from './functions/util.js';
 import { summary } from './functions/summary.js'
 import Life from './life.js'
 
-const initTalentCount = 10;
+const initTalentCount = 5;
 
 class App{
     constructor(){
@@ -347,7 +347,7 @@ class App{
         <div id="main">
             <ul id="lifeProperty" class="lifeProperty"></ul>
             <ul id="lifeTrajectory" class="lifeTrajectory"></ul>
-            <button id="to_end" class="mainbtn" style="top:auto; bottom:0.1rem; left:50%; right:50%;">自动升天</button>
+            <button id="to_end" class="mainbtn" style="top:auto; bottom:0.1rem; left:50%; right:auto;">自动升天</button>
             <button id="summary" class="mainbtn" style="top:auto; bottom:0.1rem; left:auto; right:50%; transform: translate(-2rem,-50%);">人生总结</button>
             <button id="domToImage" class="mainbtn" style="top:auto; bottom:0.1rem; left:50%; right:auto; transform: translate(2rem,-50%); display: none;">人生回放</button>
             <div class="domToImage2wx">
