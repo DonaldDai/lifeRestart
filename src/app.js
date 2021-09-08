@@ -56,7 +56,7 @@ class App{
             <div id="title">
                 人生重开模拟器<br>
                 <div style="font-size:1.5rem; font-weight:normal;">这垃圾人生一秒也不想呆了</div>
-                <div style="font-size:1.5rem; font-weight:normal;">天赋增强版</div>
+                <div style="font-size:1.5rem; font-weight:normal;">带薪摸鱼陈教练敬上</div>
                 <div style="font-size:1.5rem; font-weight:normal;">改版自<a href="https://github.com/VickScarlet/lifeRestart" >lifeRestart</a></div>
                 <!-- <div style="font-size:1.5rem; font-weight:normal;">(你可以活到100岁)</div> -->
             </div>
