@@ -2,7 +2,7 @@ import { max, sum } from './functions/util.js';
 import { summary } from './functions/summary.js'
 import Life from './life.js'
 
-const initTalentCount = 5;
+const initTalentCount = 20;
 
 class App{
     constructor(){
